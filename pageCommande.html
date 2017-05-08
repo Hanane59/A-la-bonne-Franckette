@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+    <link rel="stylesheet" href="pageCommande.css">
+    <meta charset="utf-8">
+    <title>Restaurant Italien</title>
+  </head>
+  <body>
+    <center><div class="cadrePrincipal">
+<div class="entete">
+  <div class="logo">
+    <img src="Images/logo.png" alt="Logo du restaurant" width="100%" height="100%">
+  </div>
+  <div class="authentification">
+<h2>LE restaurant italien de référence à Lille</h2>
+<p>Déjà membre ?</p>
+<form method="post" action="pageCommande.html" method="post">
+<input type="text" name="Pseudo" placeholder="Identifiant">
+<input type="password" name="motDePasse" placeholder="Mot de passe">
+<input type="submit" name="envoyer" value="Se Connecter" id="submit" >
+  </div></form>
+</div>
+<div class="Menu">
+  <div class="onglet1"><a href="RestaurantItalien.html" style="text-decoration:none; color: black">
+<h4>Accueil</h4></a>
+  </div>
+  <div class="onglet2"><a href="menu.html"style="text-decoration:none; color: black">
+<h4>Notre Carte</h4></a>
+  </div>
+  <div class="onglet3"><a href="commande.html"style="text-decoration:none; color: black">
+<h4>Commander Maintenant</h4></a>
+  </div>
+  <div class="onglet4"><a href="contact.html"style="text-decoration:none; color: black">
+<h4>Adresse</h4></a>
+  </div>
+</div>
+<!-- FIN DU HEADER-->
+<div class="commande">
+  <h1>Votre commande </h1>
+</div>
+<div class="contenu">
+
+<p id="textdebut">Choississez votre plat, votre dessert ainsi que votre boisson. Faites vous plaisir surtout ! Une fois la commande validé, vous recevrez un mail de confirmation de notre part</p>
+<br/>
+<form method="post" action="confirmation.html" method="post">
+<p>Choisissez vos pâtes<br/>
+  <br/><label for="penne">Penne</label>
+  <input type="checkbox" name="penne" id="penne" >
+  <label for="spaghetti">Spaghetti</label>
+  <input type="checkbox" name="spaghetti" id="spaghetti">
+  <label for="tortellini">Tortellini</label>
+  <input type="checkbox" name="tortellini" id="tortellini">
+  <label for="macaroni">Macaroni</label>
+  <input type="checkbox" name="macaroni" id="macaroni">
+<br/>
+  <br/><label for="sauce">Choisissez votre sauce</label><br/><br/>
+  <select id="sauce" name="sauce">
+    <option value="saumon">Saumon (8€)</option>
+    <option value="bolognaise">Bolognaise (6.50€)</option>
+    <option value="pesto">Pesto rouge et poulet (9€)</option>
+    <option value="carbonnara">Carbonnara (7€)</option>
+  </select><br/>
+  <br/><label for="tarte">Tarte aux pommes (4€)</label>
+  <input type="checkbox" name="tarte" >
+  <label for="yahourt">Yahourt Nature (3€)</label>
+  <input type="checkbox" name="yahourt">
+  <label for="cafe">Café Gourmand (5€)</label>
+  <input type="checkbox" name="cafe" >
+  <label for="fromage">Fromage Blanc (2.50€)</label>
+  <input type="checkbox" name="fromage">
+<br/>
+  <br/><label for="boisson">Choisissez votre boisson</label><br/><br/>
+  <select id="boisson" name="boisson">
+    <option value="coca">Coca-Cola (2€)</option>
+    <option value="Eau">Eau (1.25€)</option>
+    <option value="jus">Jus d'orange (1.50€)</option>
+    <option value="biere">Bière (5€)</option>
+  </select><br/>
+  <br/>Quelle type de commande souhaitez vous ?<br/><br/>
+    <label for="emporter">A emporter</label>
+    <input type="radio" name="mode" >
+    <label for="panier">Panier repas livré à domicile</label>
+    <input type="radio" name="mode" >
+</p>
+<input type="submit" value="Commandez maintenant" id="bouton"></form>
+</div>
+
+<h2 id="plats">Nos plats</h2>
+<div class="footer">
+
+  <div class="imageFoot">
+
+    <div class="foot1">
+      <img src="Images/pate3.jpg" alt="photo de pâte" width="100%" height="100%">
+    </div>
+    <div class="foot2">
+      <img src="Images/pizza.jpg" alt="photo de pizza"width="100%" height="100%">
+    </div>
+    <div class="foot3">
+      <img src="Images/pate.jpg" alt="photo de pâtes"width="100%" height="100%">
+    </div>
+    <div class="foot4">
+      <img src="Images/pizza2.jpg" alt="photo de pâtes"width="100%" height="100%">
+    </div>
+    <div class="foot5">
+      <img src="Images/lasagne.jpg" alt="photo de pâtes"width="100%" height="100%">
+    </div>
+    <div class="foot6">
+     <img src="Images/pizza3.jpg" alt="photo de pâtes"width="100%" height="100%">
+    </div>
+  </div>
+  <div class="information">
+    <h2 style="text-align:center"; "font-family:'BioRhyme', serif;">Où nous trouver ?</h2>
+Situé en plein coeur du centre ville, dans le Vieux-Lille, vous nous trouverez à cette adresse:
+<br/>18, rue de La Monnaie,<br/>59000 Lille
+  </div>
+</div>
+<div class="signature">
+  <h6>- Designed By Hanane -</h6>
+</div>
+    </div></center>
+  </body>
+</html>

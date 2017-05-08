@@ -1,0 +1,260 @@
+/*IMAGE DE FOND BACKGROUND*/
+body{
+  background-image: url(Images/fondpasta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ENCADRE BLANC PRINCIPAL*/
+.cadrePrincipal{
+  background-color: white;
+  width: 60em;
+  border: solid white 2px;
+  margin-bottom: 0;
+  box-shadow:20px 20px 50px 20px #392E2C;
+}
+/* ENTETE AVEC ZONE DE LOGO + ZONE D AUTHENTIFICATION*/
+.entete{
+  width: 60em;
+  height: 10em;
+  display: flex;
+}
+
+.logo{
+  width: 20em;
+  height: 10em;
+}
+.authentification{
+  width: 40em;
+  height: 10em;
+  font-family: 'BioRhyme', serif;
+}
+#submit{
+  background-color: #3EAB33;
+  border-radius: 15px;
+  font-family: 'BioRhyme', serif;
+}
+/* BANNIERE DE PUBLICITE*/
+.banniere{
+  width: 60em;
+  height: 25em;
+  border: solid black 1px
+}
+/*TITRE DE LA PARTIE HISTORIQUE*/
+.histoire{
+  font-family: 'BioRhyme', serif;
+  border-bottom: dashed;
+}
+/*DESCRIPTIF HISTORIQUE + PHOTOS*/
+.Historique{
+  width: 60em;
+  height: 20em;
+  display: flex;
+  font-family:'BioRhyme', serif;
+  text-align: justify;
+}
+.textHistorique{
+  width: 30em;
+  height: 20em;
+  padding: 1em;
+}
+.imageHistorique{
+  width: 30em;
+  height: 20em;
+}
+/*TITRE RUBRIQUE VALEUR*/
+.TitreValeur{
+  font-family: 'BioRhyme', serif;
+  border-bottom: dashed;
+}
+/*RUBRIQUE DES 3 VALEURS*/
+.valeurs{
+  display: flex;
+  font-family: 'BioRhyme', serif;
+  width: 60em;
+  height: 25em;
+  justify-content: center;
+}
+.valeur1{
+  width: 15em;
+  height: 23em;
+  margin: 2em;
+  text-align: justify;
+}
+.valeur2{
+  width: 15em;
+  height: 23em;
+  margin: 2em;
+  text-align: justify;
+}
+.valeur3{
+  width: 15em;
+  height: 23em;
+  margin: 2em;
+  text-align: justify;
+}
+/*TITRE NOS OFFRES*/
+.titreOffre{
+  font-family: 'BioRhyme', serif;
+  border-bottom: dashed;
+}
+/* NOS 3 OFFRES*/
+.offre{
+  display: flex;
+  font-family: 'BioRhyme', serif;
+  width: 60em;
+  height: 25em;
+  justify-content: center;
+}
+.offre1{
+  width:300px;
+	height:300px;
+  border: solid #3EAB33 3px;
+	-webkit-border-radius:200px;
+	-moz-border-radius:200px;
+	-o-border-radius:200px;
+	border-radius:200px;
+  margin-top: 2em;
+  font-size: 27px;
+}
+.offre2{
+	width:300px;
+	height:300px;
+  border: solid #3EAB33 3px;
+	-webkit-border-radius:200px;
+	-moz-border-radius:200px;
+	-o-border-radius:200px;
+	border-radius:200px;
+  margin-top: 2em;
+  margin-left: 0.5em;
+  font-size: 27px;
+}
+.offre3{
+	width:300px;
+	height:300px;
+  border: solid #3EAB33 3px;
+	-webkit-border-radius:200px;
+	-moz-border-radius:200px;
+	-o-border-radius:200px;
+	border-radius:200px;
+  margin-top: 2em;
+  margin-left: 0.5em;
+  font-size: 27px;
+  text-decoration: none;
+}
+.offre2:hover{
+  background-color: #3EAB33;
+}
+.offre1:hover{
+  background-color: #3EAB33;
+}
+.offre3:hover{
+  background-color: #3EAB33;
+}
+/*FOOTER*/
+#plats{
+  background-color: #3EAB33;
+  font-family: 'BioRhyme', serif;
+  text-align: left;
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+.footer{
+  display: flex;
+  width: 60em;
+  height: 24em;
+  background-color: #3EAB33;
+  margin-bottom: 0;
+}
+.information{
+  width: 30em;
+  height: 24em;
+  text-align: center;
+  font-family: 'BioRhyme', serif;
+  padding-top: 4em;
+}
+.imageFoot{
+  width: 48em;
+  height: 24em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.foot1{
+  height: 12em;
+  width: 12em;
+}
+.foot2{
+  height: 12em;
+  width: 12em;
+}
+.foot3{
+  height: 12em;
+  width: 12em;
+}.foot4{
+  height: 12em;
+  width: 12em;
+}.foot5{
+  height: 12em;
+  width: 12em;
+}.foot6{
+  height: 12em;
+  width: 12em;
+}
+.signature{
+  background-color: #3EAB33;
+  font-family: 'BioRhyme', serif;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+
+
+/*TEST MENU*/
+.Menu{
+  width: 60em;
+  height: 4em;
+  display: flex;
+  font-family: 'BioRhyme', serif;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+
+}
+.onglet1{
+  width: 15em;
+  height: 4em;
+  background-color: white;
+  border-left: solid black 1px;
+}
+.onglet2{
+  width: 15em;
+  height: 4em;
+  background-color: white;
+  border-left: solid black 1px;
+}
+.onglet3{
+  width: 15em;
+  height: 4em;
+  background-color: red;
+  border-left: solid black 1px;
+}
+.onglet4{
+  width: 15em;
+  height: 4em;
+  background-color: white;
+  border-left: solid black 1px;
+}
+.onglet1:hover {
+background-color: #3EAB33;
+}
+.onglet2:hover {
+background-color: #3EAB33;
+}
+.onglet3:hover {
+background-color: #3EAB33;
+}
+.onglet4:hover {
+background-color: #3EAB33;
+}

@@ -1,0 +1,145 @@
+/*IMAGE DE FOND BACKGROUND*/
+body{
+  background-image: url(Images/fondpasta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ENCADRE BLANC PRINCIPAL*/
+.cadrePrincipal{
+  background-color: white;
+  width: 60em;
+  border: solid white 2px;
+  margin-bottom: 0;
+  box-shadow:20px 20px 50px 20px #392E2C;
+}
+/* ENTETE AVEC ZONE DE LOGO + ZONE D AUTHENTIFICATION*/
+.entete{
+  width: 60em;
+  height: 10em;
+  display: flex;
+}
+
+.logo{
+  width: 20em;
+  height: 10em;
+}
+.authentification{
+  width: 40em;
+  height: 10em;
+  font-family: 'BioRhyme', serif;
+}
+/*confirmation*/
+.confirm{
+  font-family: 'BioRhyme', serif;
+  border-bottom: dashed;
+}
+p{
+  font-family: 'BioRhyme', serif;
+}
+
+
+  /*FOOTER*/
+  #plats{
+    background-color: #3EAB33;
+    font-family: 'BioRhyme', serif;
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 0;
+  }
+
+  .footer{
+    display: flex;
+    width: 60em;
+    height: 24em;
+    background-color: #3EAB33;
+    margin-bottom: 0;
+  }
+  .information{
+    width: 30em;
+    height: 24em;
+    text-align: center;
+    font-family: 'BioRhyme', serif;
+    padding-top: 4em;
+  }
+  .imageFoot{
+    width: 48em;
+    height: 24em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .foot1{
+    height: 12em;
+    width: 12em;
+  }
+  .foot2{
+    height: 12em;
+    width: 12em;
+  }
+  .foot3{
+    height: 12em;
+    width: 12em;
+  }.foot4{
+    height: 12em;
+    width: 12em;
+  }.foot5{
+    height: 12em;
+    width: 12em;
+  }.foot6{
+    height: 12em;
+    width: 12em;
+  }
+  .signature{
+    background-color: #3EAB33;
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 0;
+  }
+  /*TEST MENU*/
+  .Menu{
+    width: 60em;
+    height: 4em;
+    display: flex;
+    font-family: 'BioRhyme', serif;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+
+  }
+  .onglet1{
+    width: 15em;
+    height: 4em;
+    background-color: white;
+    border-left: solid black 1px;
+  }
+  .onglet2{
+    width: 15em;
+    height: 4em;
+    background-color: white;
+    border-left: solid black 1px;
+  }
+  .onglet3{
+    width: 15em;
+    height: 4em;
+    background-color: red;
+    border-left: solid black 1px;
+  }
+  .onglet4{
+    width: 15em;
+    height: 4em;
+    background-color: white;
+    border-left: solid black 1px;
+  }
+  .onglet1:hover {
+  background-color: #3EAB33;
+  }
+  .onglet2:hover {
+  background-color: #3EAB33;
+  }
+  .onglet3:hover {
+  background-color: #3EAB33;
+  }
+  .onglet4:hover {
+  background-color: #3EAB33;
+  }
